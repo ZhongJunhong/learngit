@@ -1,4 +1,4 @@
-# To learn how to use git
+# To Learn How to Use Git
 
 *I am working on WSL on Windows.*
 
@@ -12,8 +12,14 @@ $ git config --global user.email [My GitHub login in email]
 ```
 ## Initialize the git repo
 
-Create a folder as the git repo.
+Create a folder and change dir to it.
 
 ```shell
-$ mkdir learngit 
+$ mkdir learngit
+$ cd learngit
+```
+Initialize such dir as git repo
+
+```shell
+$ git init
 ```
