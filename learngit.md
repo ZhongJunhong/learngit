@@ -23,3 +23,9 @@ Initialize such dir as Git repo
 ```shell
 $ git init
 ```
+This operation will add a hidden file named ".git" to local dir.
+
+```shell
+$ ls -a
+. .. .git learngit.md
+```
