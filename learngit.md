@@ -18,7 +18,7 @@ Create a folder and change dir to it.
 $ mkdir learngit
 $ cd learngit
 ```
-Initialize such dir as git repo
+Initialize such dir as Git repo
 
 ```shell
 $ git init
