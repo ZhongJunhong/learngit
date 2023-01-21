@@ -81,6 +81,7 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
+
 *After `git add`*
 
 ```shell
@@ -92,3 +93,11 @@ Changes to be committed:
         modified:   learngit.md
 ```
 
+*After `git commit`*
+
+```shell
+$ git commit -m "test"
+$ git status
+On branch master
+nothing to commit, working tree clean
+```
