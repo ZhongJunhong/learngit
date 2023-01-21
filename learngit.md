@@ -43,8 +43,18 @@ Add a changed file to `stage`.
 $ git add [filename]
 ```
 
-Add all changed files to `stage`.
+Or add all changed files to `stage`.
 
 ```shell
 $ git add .
 ```
+
+Step3: All change added to `stage` need to be moved to `master` branch.
+
+```shell
+$ git commit -m "first commit"
+```
+
+**Commit comment could not be skip. It 's necessary to specify what have been changed in every commit time.**
+
+Every commit is to specify a version of such repo. It 's the key for Git to achieve **version control**. 
