@@ -59,3 +59,9 @@ $ git commit -m "first commit"
 
 Every commit is to specify a version of such repo. It 's the key for Git to achieve **version control**. 
 
+And we will see the respon from Git
+
+```shell
+1 file changed, 2 insertions(+), 1 deletion(-)
+```
+
