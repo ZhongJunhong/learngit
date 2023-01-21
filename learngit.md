@@ -37,7 +37,7 @@ Step1: Initialize the Git repo, such repo (the work folder actually) is called `
 
 Step2: When we change something in repo, the change will not be added to `master` directly, they should be moved to a place that we called `stage` in Git **for temporary**.
 
-Add a changed file to `st·age`.
+Add a changed file to `stage`.
 
 ```shell
 $ git add [filename]
@@ -59,10 +59,36 @@ $ git commit -m "first commit"
 
 Every commit is to specify a version of such repo. It 's the key for Git to achieve **version control**. 
 
-And we will see the respon from Git
+And we will see the respon from Git:
 
 ```shell
 1 file changed, 2 insertions(+), 1 deletion(-)
 ```
-test
+
+## Check Git status
+
+To check Git status by command:
+
+*Respond showed below mean something has been changed but not commit.*
+
+```shell
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   learngit.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+*After `git add`*
+
+```shell
+$ git add .
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   learngit.md
+```
 
