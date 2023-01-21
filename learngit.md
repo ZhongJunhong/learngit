@@ -174,4 +174,6 @@ $ git remote remove origin
 
 From serval years ago, GitHub begin to use the `main` for default branch name instead of `master` that used before. This change is something about race problem.
 
-For now we can easily to take a change for that.
+For now we can easily to take a change for that. Here I assume that you have set up `master` branch.
+
+
