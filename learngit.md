@@ -1,8 +1,6 @@
-# To Learn How to Use Git
+# Learn How to Use Git
 
-*I am working on WSL on Windows.*
-
-## Install git on Linux(WSL)
+## Install Git on Linux(WSL)
 
 I need to config the environment to tell the Git where to commit or push the data.
 
@@ -10,7 +8,8 @@ I need to config the environment to tell the Git where to commit or push the dat
 $ git config --global user.name junhong
 $ git config --global user.email [My GitHub login in email]
 ```
-## Initialize the git repo
+
+## Initialize the Git repo
 
 Create a folder and change dir to it.
 
@@ -18,7 +17,7 @@ Create a folder and change dir to it.
 $ mkdir learngit
 $ cd learngit
 ```
-Initialize such dir as Git repo
+Initialize such dir as Git repo.
 
 ```shell
 $ git init
