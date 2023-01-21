@@ -106,7 +106,7 @@ nothing to commit, working tree clean
 
 ## Connect to GitHub
 
-Create local personal public ssh key
+Create local personal public and privace ssh key.
 
 ```shell
 $ cd # Change to user home dir.
@@ -123,3 +123,10 @@ Add ssh key to GitHub account. Just turn on the personal account setting, and di
 
 *More detail about differencies between privace and public ssh key please search on Google, this is really a good way instead of identification by username and password.*
 
+Create a GitHub repo. Here I create a repo named learngit for example.
+
+Connect to GitHub repo.
+
+```shell
+$ git remote add origin git@github.com:junhong/learngit.git
+```
