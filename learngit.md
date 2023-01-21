@@ -129,4 +129,5 @@ Connect to GitHub repo.
 
 ```shell
 $ git remote add origin git@github.com:junhong/learngit.git
+$ git push -u origin master
 ```
