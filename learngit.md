@@ -5,8 +5,14 @@
 I need to config the environment to tell the Git where to commit or push the data.
 
 ```shell
-$ git config --global user.name junhong
+$ git config --global user.name ZhongJunhong
 $ git config --global user.email [My GitHub login in email]
+```
+The global configuration can be changed in the future in such hidden document: `~/.gitconfig`:
+
+```shell
+$ cd # change to user home dir
+~$ vim .gitconfig
 ```
 
 ## Initialize the Git repo
