@@ -161,6 +161,8 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 
 ## Some Detail
 
+### Attention to the correct `origin` set up 
+
 It 's necessary to enter the correct command expecially the username when we connect to GitHub repo cause when the `origin` be set up once it can not be changed later until remove it.
 
 Remove the origin of the local repo.
@@ -168,3 +170,8 @@ Remove the origin of the local repo.
 ```shell
 $ git remote remove origin
 ```
+### Difference between `master` and `main` branch on GitHub
+
+From serval years ago, GitHub begin to use the `main` for default branch name instead of `master` that used before. This change is something about race problem.
+
+For now we can easily to take a change for that.
