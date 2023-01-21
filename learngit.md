@@ -58,3 +58,4 @@ $ git commit -m "first commit"
 **Commit comment could not be skip. It 's necessary to specify what have been changed in every commit time.**
 
 Every commit is to specify a version of such repo. It 's the key for Git to achieve **version control**. 
+
