@@ -33,9 +33,9 @@ $ ls -a
 
 To understand `git add` and `git commit` command, it' s necessary to specify the Git workflow:
 
-Step1: Initialize the Git repo, such repo (the work folder actually) is called `master` branch in Git.
+Initialize the Git repo, such repo (the work folder actually) is called `master` branch in Git.
 
-Step2: When we change something in repo, the change will not be added to `master` directly, they should be moved to a place that we called `stage` in Git **for temporary**.
+When we change something in repo, the change will not be added to `master` directly, they should be moved to a place that we called `stage` in Git **for temporary**.
 
 Add a changed file to `stage`.
 
@@ -69,7 +69,7 @@ And we will see the respon from Git:
 
 To check Git status by command:
 
-*Respond showed below mean something has been changed but not commit.*
+Respond showed below mean something has been changed but not commit.
 
 ```shell
 $ git status
@@ -82,7 +82,7 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
-*After `git add`*
+After `git add`:
 
 ```shell
 $ git add .
@@ -93,7 +93,7 @@ Changes to be committed:
         modified:   learngit.md
 ```
 
-*After `git commit`*
+After `git commit`:
 
 ```shell
 $ git commit -m "test"
@@ -103,3 +103,23 @@ $ git status
 On branch master
 nothing to commit, working tree clean
 ```
+
+## Connect to GitHub
+
+Create local personal public ssh key
+
+```shell
+$ cd # Change to user home dir.
+$ ssh-keygen -t rsa -C [GitHub login email address] # Generate personal public ssh key and private ssh key.
+$ cd .ssh
+$ ls
+id_rsa id_rsa.pub # id_rsa stored the private ssh key that can not be share. The other is the public ssh key.
+$ vim id_rsa.pub # open the public ssh key, and copy all content in it.
+```
+
+Add ssh key to GitHub account. Just turn on the personal account setting, and direct to ssh setting, create a new ssh key and name it what you like. Here 's no detail cause I need to protect my privacy.
+
+**ssh key is used for GitHub to identify the permission of who commits to the repo.**
+
+*More detail about differencies between privace and public ssh key please search on Google, this is really a good way instead of identification by username and password.*
+
