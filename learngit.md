@@ -116,7 +116,7 @@ Create local personal public and privace ssh key.
 
 ```shell
 $ cd # Change to user home dir.
-$ ssh-keygen -t rsa -C [GitHub login email address] # Generate personal public ssh key and private ssh key.
+~$ ssh-keygen -t rsa -C [GitHub login email address] # Generate personal public ssh key and private ssh key.
 $ cd .ssh
 $ ls
 id_rsa id_rsa.pub # id_rsa stored the private ssh key that can not be share. The other is the public ssh key.
