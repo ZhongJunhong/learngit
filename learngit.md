@@ -37,7 +37,7 @@ Step1: Initialize the Git repo, such repo (the work folder actually) is called `
 
 Step2: When we change something in repo, the change will not be added to `master` directly, they should be moved to a place that we called `stage` in Git **for temporary**.
 
-Add a changed file to `stage`.
+Add a changed file to `st·age`.
 
 ```shell
 $ git add [filename]
@@ -64,4 +64,5 @@ And we will see the respon from Git
 ```shell
 1 file changed, 2 insertions(+), 1 deletion(-)
 ```
+test
 
