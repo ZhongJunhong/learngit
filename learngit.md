@@ -131,9 +131,40 @@ Add ssh key to GitHub account. Just turn on the personal account setting, and di
 
 Create a GitHub repo. Here I create a repo named learngit for example.
 
-Connect to GitHub repo.
+I have told that the local repo called `master` in Git before, and the GitHub remote repo we create here called `origin` in Git.
+
+Set up the remote `origin` for the local repo.
 
 ```shell
 $ git remote add origin git@github.com:ZhongJunhong/learngit.git
+```
+
+Connect to GitHub repo and push.
+
+```shell
 $ git push -u origin master
+Enumerating objects: 57, done.
+Counting objects: 100% (57/57), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (38/38), done.
+Writing objects: 100% (57/57), 5.85 KiB | 498.00 KiB/s, done.
+Total 57 (delta 18), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (18/18), done.
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/ZhongJunhong/learngit/pull/new/master
+remote: 
+To github.com:ZhongJunhong/learngit.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+```
+
+## Some Detail
+
+It 's necessary to enter the correct command expecially the username when we connect to GitHub repo cause when the `origin` be set up once it can not be changed later until remove it.
+
+Remove the origin of the local repo.
+
+```shell
+$ git remote remove origin
 ```
