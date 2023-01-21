@@ -97,6 +97,8 @@ Changes to be committed:
 
 ```shell
 $ git commit -m "test"
+[master 78da7cf] test
+ 1 file changed, 9 insertions(+)
 $ git status
 On branch master
 nothing to commit, working tree clean
