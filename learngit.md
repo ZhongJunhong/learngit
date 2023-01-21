@@ -128,6 +128,6 @@ Create a GitHub repo. Here I create a repo named learngit for example.
 Connect to GitHub repo.
 
 ```shell
-$ git remote add origin git@github.com:junhong/learngit.git
+$ git remote add origin git@github.com:ZhongJunhong/learngit.git
 $ git push -u origin master
 ```
