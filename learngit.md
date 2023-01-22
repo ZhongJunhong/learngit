@@ -159,6 +159,8 @@ To github.com:ZhongJunhong/learngit.git
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 ```
 
+
+
 ## Some Detail
 
 ### Attention to the correct `origin` set up 
