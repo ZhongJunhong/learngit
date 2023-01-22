@@ -131,7 +131,7 @@ Add ssh key to GitHub account. Just turn on the personal account setting, and di
 
 Create a GitHub repo. Here I create a repo named learngit for example.
 
-I have told that the local repo called `master` in Git before, and the GitHub remote repo we create here called `origin` in Git.
+I have told that the local repo called `master` in Git above, and the GitHub remote repo we create here called `origin` in Git, but it named `master` still on GitHub you can see.
 
 Set up the remote `origin` for the local repo.
 
@@ -159,6 +159,19 @@ To github.com:ZhongJunhong/learngit.git
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 ```
 
+In the first time pushing to remote repo, I specify parameter `-u` to **set the connection between remote `origin` branch and local `master` branch.**
+
+And the parameter `-u` can be skip in the future like:
+
+```shell
+$ git push origin master
+```
+
+Or just:
+
+```shell
+$ git push
+```
 
 
 ## Some Detail
@@ -177,5 +190,4 @@ $ git remote remove origin
 From serval years ago, GitHub begin to use the `main` for default branch name instead of `master` that used before. This change is something about race problem.
 
 For now we can easily to take a change for that. Here I assume that you have set up `master` branch locally.
-
 
