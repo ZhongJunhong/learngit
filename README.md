@@ -230,4 +230,3 @@ And then do remember to  `add` and `commit` in `main` branch
 $ git add .
 $ git commit -m "merge from master branch"
 ```
-
