@@ -161,7 +161,7 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 
 In the first time pushing to remote repo, I specify parameter `-u` to **set the connection between remote `origin` branch and local `master` branch.**
 
-And the parameter `-u` can be skip in the future like:
+And the parameter `-u` can be skipped in the future like:
 
 ```shell
 $ git push origin master
