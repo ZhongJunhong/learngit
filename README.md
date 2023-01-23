@@ -215,5 +215,19 @@ $ git branch
 * main
 ```
 
-Merge the local `master` branch to local `main` branch.
+Merge the local `master` branch to local `main` branch. **Do remember to `add` and `commit` in `master` branch before merging**
+
+```shell
+$ git merge master
+Updating 50323a6..92033e8
+Fast-forward
+ learngit.md => README.md | 50 +++++++++++++++++++++++++++++++++++++++++++++-----
+ 1 file changed, 45 insertions(+), 5 deletions(-)
+```
+And then do remember to  `add` and `commit` in `main` branch
+
+```shell
+$ git add .
+$ git commit -m "merge from master branch"
+```
 
