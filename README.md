@@ -262,5 +262,3 @@ Such error occured cause I have made some change on remote branch by GitHub web 
 ```shell
 $ git pull --rebase origin main 
 ```
-
-
