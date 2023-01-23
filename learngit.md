@@ -1,6 +1,6 @@
 # Learn How to Use Git
 
-## Install Git on Linux(WSL)
+## Install Git on Linux (WSL)
 
 I need to config the environment to tell the Git where to commit or push the data.
 
@@ -176,7 +176,7 @@ $ git push
 
 ## Some Detail
 
-### Attention to the correct `origin` set up 
+### Pay attention to the correct `origin` set up 
 
 It 's necessary to enter the correct command expecially the username when we connect to GitHub repo cause when the `origin` be set up once it can not be changed later until remove it.
 
@@ -185,9 +185,12 @@ Remove the origin of the local repo.
 ```shell
 $ git remote remove origin
 ```
+
+Then repeat the operation above.
+
 ### Difference between `master` and `main` branch on GitHub
 
-From serval years ago, GitHub begin to use the `main` for default branch name instead of `master` that used before. This change is something about race problem.
+From several years ago, GitHub began to use the `main` for default branch name instead of `master` that used before. This change is something about race problem.
 
-For now we can easily to take a change for that. Here I assume that you have set up `master` branch locally.
+For now we can easily take a change for that. Here I assume that you have set up `master` branch locally.
 
