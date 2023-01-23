@@ -230,3 +230,25 @@ And then do remember to  `add` and `commit` in `main` branch
 $ git add .
 $ git commit -m "merge from master branch"
 ```
+
+Then push it to remote branch.
+
+```shell
+$ git push -u origin main
+```
+
+
+And I have meet some error before:
+
+```shell
+int: Updates were rejected because the tip of your current branch is behind its remote counterpart. Integrate the remote changes (e.g. hint: 'git pull ...') before pushing again.
+See the 'Note about fast-forwards' in 'git push --help' for details.
+```
+
+Such error occured cause I have made some change on remote branch by GitHub web interface that have not merge locally. And I finally `rebase` the branch between remote and local branch to fix it.
+
+```shell
+$ git pull --rebase origin main
+```
+
+
