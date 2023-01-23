@@ -247,7 +247,7 @@ $ git branch -D master
 Delete the remote `master` branch.
 
 ```shell
-$ git push origin -D master
+$ git push origin -D master # D means force deleting
 ```
 
 And I have meet some error before:
