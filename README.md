@@ -190,7 +190,29 @@ Then repeat the operation above.
 
 ### Difference between `master` and `main` branch on GitHub
 
-From several years ago, GitHub began to use the `main` for default branch name instead of `master` that used before. This change is something about race problem.
+From several years ago, GitHub began to use the `main` for default branch name instead of `master` that used before.
 
-For now we can easily take a change for that. Here I assume that you have set up `master` branch locally.
+For now we can easily take a change for that. Here I assume that you have set up `master` branch locally and remotly.
+
+Before beginning, it 's necessary to explain what is `branch` in Git:
+
+A `branch` is likely a "sandbox" workspace in a project. Whatever you have done inside a branch, there would be nothing can affect other branch until someone have permission merge two branchs.
+
+First, build a branch named `main` locally.
+
+```shell
+$ git checkout -b main
+```
+We can check all branch and the current branch locally.
+
+*The star \* ahead of the first branch name means the current branch.*
+
+```shell
+$ git branch
+* master
+  main
+```
+
+
+
 
