@@ -192,11 +192,13 @@ Then repeat the operation above.
 
 From several years ago, GitHub began to use the `main` for default branch name instead of `master` that used before.
 
-For now we can easily take a change for that. Here I assume that you have set up `master` branch locally and remotly.
+For now we can easily move content from a branch to another. Here I assume that you have set up `master` branch locally and remotly.
 
 Before beginning, it 's necessary to explain what is `branch` in Git:
 
 A `branch` is likely a "sandbox" workspace in a project. Whatever you have done inside a branch, there would be nothing can affect other branch until someone have permission merge two branchs.
+
+The remote repo already have a default branch named `main` at initialize time.
 
 First, build a branch named `main` locally.
 
@@ -205,14 +207,13 @@ $ git checkout -b main
 ```
 We can check all branch and the current branch locally.
 
-*The star \* ahead of the first branch name means the current branch.*
+*The star \* ahead of one of the branch name means the current branch.*
 
 ```shell
 $ git branch
-* master
-  main
+  master
+* main
 ```
 
-
-
+Merge the local `master` branch to local `main` branch.
 
