@@ -215,7 +215,7 @@ $ git branch
 * main
 ```
 
-Merge the local `master` branch to local `main` branch. **Do remember to `add` and `commit` in `master` branch before merging**
+Merge the local `master` branch to local `main` branch. **Do remember to `add` and `commit` in `master` branch before merging.**
 
 ```shell
 $ git merge master
@@ -224,7 +224,7 @@ Fast-forward
  learngit.md => README.md | 50 +++++++++++++++++++++++++++++++++++++++++++++-----
  1 file changed, 45 insertions(+), 5 deletions(-)
 ```
-And then do remember to  `add` and `commit` in `main` branch
+And then do remember to  `add` and `commit` in `main` branch.
 
 ```shell
 $ git add .
@@ -236,7 +236,19 @@ Then push it to remote branch.
 ```shell
 $ git push -u origin main # for initialized time, can be skipped in the future.
 ```
+The local and remote `master` branch can be deleted now. But you 'd better check the pushing are successful on GitHub before your deleting.
 
+Delete the local `master` branch.
+
+```shell
+$ git branch -D master
+```
+
+Delete the remote `master` branch.
+
+```shell
+$ git push origin -D master
+```
 
 And I have meet some error before:
 
