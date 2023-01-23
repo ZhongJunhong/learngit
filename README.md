@@ -234,7 +234,7 @@ $ git commit -m "merge from master branch"
 Then push it to remote branch.
 
 ```shell
-$ git push -u origin main
+$ git push -u origin main # for initialized time, can be skipped in the future.
 ```
 
 
@@ -248,7 +248,7 @@ See the 'Note about fast-forwards' in 'git push --help' for details.
 Such error occured cause I have made some change on remote branch by GitHub web interface that have not merge locally. And I finally `rebase` the branch between remote and local branch to fix it.
 
 ```shell
-$ git pull --rebase origin main
+$ git pull --rebase origin main 
 ```
 
 
