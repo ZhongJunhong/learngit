@@ -203,7 +203,13 @@ Before beginning, it 's necessary to explain what is `branch` in Git:
 
 A `branch` is likely a "sandbox" workspace in a project. Whatever you have done inside a branch, there would be nothing can affect other branch until someone have permission merge two branchs.
 
-The remote repo already have a default branch named `main` at initialize time.
+#### Case1 change the global defalut branch name before `git init`
+
+```shell
+$ git config --global init.defaultBranch main
+```
+
+#### Case2 remote repo already have a default branch named `main` at initialize time.
 
 First, build a branch named `main` locally.
 
