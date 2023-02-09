@@ -173,6 +173,11 @@ Or just:
 $ git push
 ```
 
+## Keeping update to the remote resp
+
+```shell
+$ git pull
+```
 
 ## Some Detail
 
